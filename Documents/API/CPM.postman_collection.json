@@ -1,0 +1,429 @@
+{
+	"id": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+	"name": "CPM",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"name": "CPM_CREATE Copy",
+			"description": "",
+			"order": [
+				"4f6577eb-3c68-ec5e-4aeb-2b03be70039f",
+				"9c689d74-e842-9864-fde7-a53e53930574",
+				"3d1a367e-cf95-3d28-ee4f-711c1d25050e",
+				"e1223996-3bfc-f893-784a-26960281f781",
+				"99494341-d724-1c67-961e-670d85aaa458",
+				"05173f3e-1c8f-e43c-edd8-5228ed779ed6",
+				"4eb986f0-bf4b-0ebf-9cbd-39fd91b674cb",
+				"1c48a156-9c26-6add-014c-bcb8d8343f8e",
+				"25a3286a-1f39-8de0-3a6a-fe449b7babd1",
+				"2db56f2f-07b8-1c28-a56b-0de45e71fbb5",
+				"a9a605b6-0559-970f-eb05-e5b669e756f6",
+				"e9b8e432-c0d2-09e0-10c8-d5bf864b13df"
+			],
+			"folders_order": [],
+			"owner": "4700138",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82"
+		}
+	],
+	"folders_order": [
+		"5d18dba2-4a3c-f71c-a162-70e924cab321"
+	],
+	"timestamp": 0,
+	"owner": "4700138",
+	"public": false,
+	"requests": [
+		{
+			"id": "05173f3e-1c8f-e43c-edd8-5228ed779ed6",
+			"headers": "Content-Type: application/json\nAccept: application/json;profile=\"http://ericsson.com/bss.cha.balanceEnquiryResponse.7.json#\"\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json;profile=\"http://ericsson.com/bss.cha.balanceEnquiryResponse.7.json#\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sot08-chaaccess1-trf1.ete.ka.sw.ericsson.se:13180/cha/balanceEnquiry/v1/partition/1/customer/BA764D2A5FA34AD9900C2FF39D0608BF?expand=/:recursive",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [
+				{
+					"key": "expand",
+					"value": "/:recursive",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533618512766,
+			"name": "GET_PO",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "99494341-d724-1c67-961e-670d85aaa458",
+			"rawModeData": "{\r\n  \"resource\" : {\r\n    \"billAccAssignmentRules\" : [{\r\n        \"id\" : \"706EA00F3046489B95F9859270FE4B00\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n    }],\r\n    \"externalId\" : \"contract_CHA_Cache_Test_5\",\r\n\r\n    \"statuses\" : [{\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"status\" : \"ContractActive\"\r\n    }],\r\n    \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n    \"partyInteractionRoles\" : [{\r\n        \"interactionRole\" : \"LegalContractHolder\",\r\n        \"partyRoleId\" : \"BA764D2A5FA34AD9900C2FF39D0608BF\"\r\n    }],\r\n    \"paymentContext\" : {\"paymentContextId\" : \"Prepaid\"},\r\n    \"prePaidLifeCycleData\": {\"specificationId\": \"9C57EAD00CDA440BB18F135E14AB8ADF\"},\r\n    \"products\" : [{\r\n        \"tmpId\" : \"tmp_productId_1\",\r\n        \"productOffering\" : {\"productOfferingId\" : \"950c5070-4cbd-4db1-8473-59e5d37443aa\"},\r\n        \"name\" : \"PO Voice National\",\r\n        \"description\" : \"PO_Voice_National\",\r\n        \"productSerialNumber\" : \"1\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n      \r\n                 \"productPrices\": [\r\n                        {\r\n                        \"name\": \"Pricing Strategy data\",\r\n                        \"validFor\": {\"start\": \"2018-01-12T00:00:00.000+02:00\"},\r\n                        \"productOfferingPriceId\": \"bdbf20d055e9cf093938076c1be26aae\"\r\n                        }\r\n                ],        \r\n          \"productPolicyRefs\": [\r\n                        {\r\n                        \"tmpId\": \"tmp_productPolicyRef1\",\r\n                        \"poPolicyRefId\": \"db796836a69dd4f3192f74262db3e30b\",\r\n                        \"validFor\": {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n                        }\r\n               ],  \r\n      \"statuses\" : [{\r\n            \"status\" : \"ProductActive\",\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n         }],\r\n         \"services\" : [\r\n                {\r\n            \"tmpId\" : \"tmp_CFS_Service_Data_1\"\r\n              }\r\n         ]\r\n    }],\r\n    \"services\" : [\r\n           {\r\n         \"tmpId\" : \"tmp_CFS_Service_Data_1\",\r\n         \"serviceSpecification\" : {\"serviceSpecificationId\" : \"7a441614-d75e-49dc-a9c9-1ec842958ab3\"},\r\n         \"serviceType\" : \"CF\",\r\n         \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n         }],\r\n         \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n         \"rfServices\" : [\r\n                  {\r\n            \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\"\r\n              },\r\n            {\r\n            \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\"\r\n              }\r\n         ]},\r\n         {\r\n        \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"0be94440-5db4-4d6d-9046-3b43597927de\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       },\r\n      {\r\n        \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"63812810-b008-4eb3-bb27-32eaced007a1\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       }\r\n    ]\r\n  }\r\n} \r\n\r\n"
+		},
+		{
+			"id": "1c48a156-9c26-6add-014c-bcb8d8343f8e",
+			"headers": "Content-Type: application/json\nAccept: application/json;profile=\"http://ericsson.com/bss.cha.balanceEnquiryResponse.7.json#\"\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json;profile=\"http://ericsson.com/bss.cha.balanceEnquiryResponse.7.json#\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sot08-chaaccess1-trf1.ete.ka.sw.ericsson.se:13180/cha/balanceEnquiry/v1/partition/1/customer/BA764D2A5FA34AD9900C2FF39D0608BF?expand=/:recursive",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [
+				{
+					"key": "expand",
+					"value": "/:recursive",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533209772527,
+			"name": "GET_BillingAccountSpec",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "99494341-d724-1c67-961e-670d85aaa458",
+			"rawModeData": "{\r\n  \"resource\" : {\r\n    \"billAccAssignmentRules\" : [{\r\n        \"id\" : \"706EA00F3046489B95F9859270FE4B00\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n    }],\r\n    \"externalId\" : \"contract_CHA_Cache_Test_5\",\r\n\r\n    \"statuses\" : [{\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"status\" : \"ContractActive\"\r\n    }],\r\n    \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n    \"partyInteractionRoles\" : [{\r\n        \"interactionRole\" : \"LegalContractHolder\",\r\n        \"partyRoleId\" : \"BA764D2A5FA34AD9900C2FF39D0608BF\"\r\n    }],\r\n    \"paymentContext\" : {\"paymentContextId\" : \"Prepaid\"},\r\n    \"prePaidLifeCycleData\": {\"specificationId\": \"9C57EAD00CDA440BB18F135E14AB8ADF\"},\r\n    \"products\" : [{\r\n        \"tmpId\" : \"tmp_productId_1\",\r\n        \"productOffering\" : {\"productOfferingId\" : \"950c5070-4cbd-4db1-8473-59e5d37443aa\"},\r\n        \"name\" : \"PO Voice National\",\r\n        \"description\" : \"PO_Voice_National\",\r\n        \"productSerialNumber\" : \"1\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n      \r\n                 \"productPrices\": [\r\n                        {\r\n                        \"name\": \"Pricing Strategy data\",\r\n                        \"validFor\": {\"start\": \"2018-01-12T00:00:00.000+02:00\"},\r\n                        \"productOfferingPriceId\": \"bdbf20d055e9cf093938076c1be26aae\"\r\n                        }\r\n                ],        \r\n          \"productPolicyRefs\": [\r\n                        {\r\n                        \"tmpId\": \"tmp_productPolicyRef1\",\r\n                        \"poPolicyRefId\": \"db796836a69dd4f3192f74262db3e30b\",\r\n                        \"validFor\": {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n                        }\r\n               ],  \r\n      \"statuses\" : [{\r\n            \"status\" : \"ProductActive\",\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n         }],\r\n         \"services\" : [\r\n                {\r\n            \"tmpId\" : \"tmp_CFS_Service_Data_1\"\r\n              }\r\n         ]\r\n    }],\r\n    \"services\" : [\r\n           {\r\n         \"tmpId\" : \"tmp_CFS_Service_Data_1\",\r\n         \"serviceSpecification\" : {\"serviceSpecificationId\" : \"7a441614-d75e-49dc-a9c9-1ec842958ab3\"},\r\n         \"serviceType\" : \"CF\",\r\n         \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n         }],\r\n         \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n         \"rfServices\" : [\r\n                  {\r\n            \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\"\r\n              },\r\n            {\r\n            \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\"\r\n              }\r\n         ]},\r\n         {\r\n        \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"0be94440-5db4-4d6d-9046-3b43597927de\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       },\r\n      {\r\n        \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"63812810-b008-4eb3-bb27-32eaced007a1\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       }\r\n    ]\r\n  }\r\n} \r\n\r\n"
+		},
+		{
+			"id": "25a3286a-1f39-8de0-3a6a-fe449b7babd1",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://vmx-dxp-039.\nete.ka.sw.ericsson.se:13080/cpm/business/v1/readContract/customer/D429AAFAC22C4191ADF62520F02D46A9/contract/*",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534404325279,
+			"name": "GET_Contract",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"rawModeData": "{\r\n  \"resource\" : {\r\n    \"billAccAssignmentRules\" : [{\r\n        \"id\" : \"706EA00F3046489B95F9859270FE4B00\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n    }],\r\n    \"externalId\" : \"contract_CHA_Cache_Test_5\",\r\n\r\n    \"statuses\" : [{\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"status\" : \"ContractActive\"\r\n    }],\r\n    \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n    \"partyInteractionRoles\" : [{\r\n        \"interactionRole\" : \"LegalContractHolder\",\r\n        \"partyRoleId\" : \"BA764D2A5FA34AD9900C2FF39D0608BF\"\r\n    }],\r\n    \"paymentContext\" : {\"paymentContextId\" : \"Prepaid\"},\r\n    \"prePaidLifeCycleData\": {\"specificationId\": \"9C57EAD00CDA440BB18F135E14AB8ADF\"},\r\n    \"products\" : [{\r\n        \"tmpId\" : \"tmp_productId_1\",\r\n        \"productOffering\" : {\"productOfferingId\" : \"950c5070-4cbd-4db1-8473-59e5d37443aa\"},\r\n        \"name\" : \"PO Voice National\",\r\n        \"description\" : \"PO_Voice_National\",\r\n        \"productSerialNumber\" : \"1\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n      \r\n                 \"productPrices\": [\r\n                        {\r\n                        \"name\": \"Pricing Strategy data\",\r\n                        \"validFor\": {\"start\": \"2018-01-12T00:00:00.000+02:00\"},\r\n                        \"productOfferingPriceId\": \"bdbf20d055e9cf093938076c1be26aae\"\r\n                        }\r\n                ],        \r\n          \"productPolicyRefs\": [\r\n                        {\r\n                        \"tmpId\": \"tmp_productPolicyRef1\",\r\n                        \"poPolicyRefId\": \"db796836a69dd4f3192f74262db3e30b\",\r\n                        \"validFor\": {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n                        }\r\n               ],  \r\n      \"statuses\" : [{\r\n            \"status\" : \"ProductActive\",\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n         }],\r\n         \"services\" : [\r\n                {\r\n            \"tmpId\" : \"tmp_CFS_Service_Data_1\"\r\n              }\r\n         ]\r\n    }],\r\n    \"services\" : [\r\n           {\r\n         \"tmpId\" : \"tmp_CFS_Service_Data_1\",\r\n         \"serviceSpecification\" : {\"serviceSpecificationId\" : \"7a441614-d75e-49dc-a9c9-1ec842958ab3\"},\r\n         \"serviceType\" : \"CF\",\r\n         \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n         }],\r\n         \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n         \"rfServices\" : [\r\n                  {\r\n            \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\"\r\n              },\r\n            {\r\n            \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\"\r\n              }\r\n         ]},\r\n         {\r\n        \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"0be94440-5db4-4d6d-9046-3b43597927de\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       },\r\n      {\r\n        \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"63812810-b008-4eb3-bb27-32eaced007a1\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       }\r\n    ]\r\n  }\r\n} \r\n\r\n"
+		},
+		{
+			"id": "2db56f2f-07b8-1c28-a56b-0de45e71fbb5",
+			"name": "Activate product from CPM",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"method": "POST",
+			"headers": "Content-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n    \"resource\": {\r\n                          \r\n        \"products\": [\r\n                                    \r\n{\r\n\t\"id\":\"8871582A4C28476A84200AF3FAB05DAB\",\r\n                                    \"statuses\": [\r\n                        {\r\n                            \"status\": \"ProductActive\",\r\n                            \"validFor\": {\r\n                                \"start\": \"2018-01-15T11:30:15.920+01:00\"\r\n                            }\r\n                        }\r\n                    ]\r\n}\r\n                                ] \r\n    }\r\n}\r\n",
+			"url": "https://vs-sot02-cpm1.ete.ka.sw.ericsson.se/cpm/business/v1/updateContract/customer/{{customerIdCPM}}/contract/6E119E95B42F4D008F5B595A0CCCAABF",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321"
+		},
+		{
+			"id": "3d1a367e-cf95-3d28-ee4f-711c1d25050e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://vmx-dxp-039.ete.ka.sw.ericsson.se/cpm/business/v1/createContract/customer/D429AAFAC22C4191ADF62520F02D46A9/contract/",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534404311784,
+			"name": "POST_Contract_1CFS",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"resource\": {\r\n\t\t\"billAccAssignmentRules\": [{\r\n\t\t\t\"id\": \"355B20FE890048AEA05A94B5B3A45C28\",\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t}\r\n\t\t}],\r\n\t\t\"externalId\": \"contract_CHA_Cache_Test_108\",\r\n\r\n\t\t\"statuses\": [{\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t},\r\n\t\t\t\"status\": \"ContractActive\"\r\n\t\t}],\r\n\t\t\"validFor\": {\r\n\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t},\r\n\t\t\"paymentContext\": {\r\n\t\t\t\"paymentContextId\": \"Prepaid\"\r\n\t\t},\r\n\t\t\"prePaidLifeCycleData\": {\r\n\t\t\t\"specificationId\": \"A54663D04A88434F8E6C6636B6798E2F\"\r\n\t\t},\r\n\t\t\"products\": [{\r\n\t\t\t\"tmpId\": \"tmp_productId_1\",\r\n\t\t\t\"productOffering\": {\r\n\t\t\t\t\"productOfferingId\": \"37889536-8a94-4b35-94cd-84c89c6099c8\"\r\n\t\t\t},\r\n\t\t\t\"name\": \"PO_ZNIS\",\r\n\t\t\t\"description\": \"PO_ZNIS\",\r\n\t\t\t\"productSerialNumber\": \"1\",\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t},\r\n\r\n\t\t\t\"productPrices\": [{\r\n\t\t\t\t\"name\": \"Pricing Strategy data\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"productOfferingPriceId\": \"a5aa5928a26c2a1ac43a921e47b0e7d9\"\r\n\t\t\t}],\r\n\t\t\t\"productPolicyRefs\": [{\r\n\t\t\t\t\"tmpId\": \"tmp_productPolicyRef1\",\r\n\t\t\t\t\"poPolicyRefId\": \"e421b89e5efc74825b3f785e38aadfa5\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t}\r\n\t\t\t}],\r\n\t\t\t\"statuses\": [{\r\n\t\t\t\t\"status\": \"ProductActive\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t}\r\n\t\t\t}],\r\n\t\t\t\"services\": [{\r\n\t\t\t\t\"tmpId\": \"tmp_CFS_Service_Data_1\"\r\n\t\t\t}]\r\n\t\t}],\r\n\t\t\"services\": [{\r\n\t\t\t\t\"tmpId\": \"tmp_CFS_Service_Data_1\",\r\n\t\t\t\t\"serviceSpecification\": {\r\n\t\t\t\t\t\"serviceSpecificationId\": \"feddd78d-a889-433a-a32f-bf34ea550b76\"\r\n\t\t\t\t},\r\n\t\t\t\t\"serviceType\": \"CF\",\r\n\t\t\t\t\"statuses\": [{\r\n\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"status\": \"ServiceActive\"\r\n\t\t\t\t}],\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"rfServices\": [{\r\n\t\t\t\t\t\t\"tmpId\": \"tmp_RFS_service_SMS_Bx_Id1\"\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t]\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"tmpId\": \"tmp_RFS_service_SMS_Bx_Id1\",\r\n\t\t\t\t\"serviceType\": \"RF\",\r\n\t\t\t\t\"serviceSpecification\": {\r\n\t\t\t\t\t\"serviceSpecificationId\": \"63812810-b008-4eb3-bb27-32eaced007a1\"\r\n\t\t\t\t},\r\n\t\t\t\t\"statuses\": [{\r\n\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"status\": \"ServiceActive\"\r\n\t\t\t\t}],\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"resources\": [{\r\n\t\t\t\t\t\"logicalResource\": {\r\n\t\t\t\t\t\t\"resourceSpec\": {\r\n\t\t\t\t\t\t\t\"resourceSpecId\": \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"resourceType\": \"MSISDN-DCS\",\r\n\t\t\t\t\t\t\"resourceNumber\": \"6472940345\",\r\n\t\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}]\r\n\t\t\t}\r\n\r\n\t\t]\r\n\t}\r\n}"
+		},
+		{
+			"id": "4eb986f0-bf4b-0ebf-9cbd-39fd91b674cb",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://10.223.36.40:11281/edm/eventHistory/v1/customer/BA764D2A5FA34AD9900C2FF39D0608BF/event ",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533618488747,
+			"name": "GET_Call_History",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"rawModeData": "{\r\n  \"resource\" : {\r\n    \"billAccAssignmentRules\" : [{\r\n        \"id\" : \"706EA00F3046489B95F9859270FE4B00\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n    }],\r\n    \"externalId\" : \"contract_CHA_Cache_Test_5\",\r\n\r\n    \"statuses\" : [{\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"status\" : \"ContractActive\"\r\n    }],\r\n    \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n    \"partyInteractionRoles\" : [{\r\n        \"interactionRole\" : \"LegalContractHolder\",\r\n        \"partyRoleId\" : \"BA764D2A5FA34AD9900C2FF39D0608BF\"\r\n    }],\r\n    \"paymentContext\" : {\"paymentContextId\" : \"Prepaid\"},\r\n    \"prePaidLifeCycleData\": {\"specificationId\": \"9C57EAD00CDA440BB18F135E14AB8ADF\"},\r\n    \"products\" : [{\r\n        \"tmpId\" : \"tmp_productId_1\",\r\n        \"productOffering\" : {\"productOfferingId\" : \"950c5070-4cbd-4db1-8473-59e5d37443aa\"},\r\n        \"name\" : \"PO Voice National\",\r\n        \"description\" : \"PO_Voice_National\",\r\n        \"productSerialNumber\" : \"1\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n      \r\n                 \"productPrices\": [\r\n                        {\r\n                        \"name\": \"Pricing Strategy data\",\r\n                        \"validFor\": {\"start\": \"2018-01-12T00:00:00.000+02:00\"},\r\n                        \"productOfferingPriceId\": \"bdbf20d055e9cf093938076c1be26aae\"\r\n                        }\r\n                ],        \r\n          \"productPolicyRefs\": [\r\n                        {\r\n                        \"tmpId\": \"tmp_productPolicyRef1\",\r\n                        \"poPolicyRefId\": \"db796836a69dd4f3192f74262db3e30b\",\r\n                        \"validFor\": {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n                        }\r\n               ],  \r\n      \"statuses\" : [{\r\n            \"status\" : \"ProductActive\",\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n         }],\r\n         \"services\" : [\r\n                {\r\n            \"tmpId\" : \"tmp_CFS_Service_Data_1\"\r\n              }\r\n         ]\r\n    }],\r\n    \"services\" : [\r\n           {\r\n         \"tmpId\" : \"tmp_CFS_Service_Data_1\",\r\n         \"serviceSpecification\" : {\"serviceSpecificationId\" : \"7a441614-d75e-49dc-a9c9-1ec842958ab3\"},\r\n         \"serviceType\" : \"CF\",\r\n         \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n         }],\r\n         \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n         \"rfServices\" : [\r\n                  {\r\n            \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\"\r\n              },\r\n            {\r\n            \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\"\r\n              }\r\n         ]},\r\n         {\r\n        \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"0be94440-5db4-4d6d-9046-3b43597927de\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       },\r\n      {\r\n        \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"63812810-b008-4eb3-bb27-32eaced007a1\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       }\r\n    ]\r\n  }\r\n} \r\n\r\n"
+		},
+		{
+			"id": "4f6577eb-3c68-ec5e-4aeb-2b03be70039f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://vmx-dxp-039.ete.ka.sw.ericsson.se:13080/cpm/business/v1/createParty/party/",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534404330079,
+			"name": "POST_Party",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"resource\": {\r\n\t\t\"validFor\": {\r\n\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t},\r\n\t\t\"externalId\": \"party_Promotion107_RMCA_5733495626\",\r\n\t\t\"type\": \"Individual\",\r\n\t\t\"gender\": {\r\n\t\t\t\"genderId\": \"Male\"\r\n\t\t},\r\n\t\t\"languages\": [{\r\n\t\t\t\"languageId\": \"en\"\r\n\t\t}],\r\n\t\t\"partyNames\": [{\r\n\t\t\t\"familyNames\": \"Vijay\",\r\n\t\t\t\"middleNames\": \"Kumar\",\r\n\t\t\t\"givenNames\": \"Singh\",\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t}\r\n\t\t}],\r\n\t\t\"statuses\": [{\r\n\t\t\t\"status\": \"PartyActive\",\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t}\r\n\t\t}]\r\n\r\n\r\n\t}\r\n}"
+		},
+		{
+			"id": "99494341-d724-1c67-961e-670d85aaa458",
+			"headers": "Content-Type: application/json\nAccept: application/json;profile=\"http://ericsson.com/bss.cha.balanceEnquiryResponse.7.json#\"\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json;profile=\"http://ericsson.com/bss.cha.balanceEnquiryResponse.7.json#\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://vmx-dxp-037\n.ete.ka.sw.ericsson.se:13180/cha/balanceEnquiry/v1/partition/1/customer/2BC38C876F6C45B592E6B121B1BEECC0",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534404317227,
+			"name": "GET_Balance",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"rawModeData": "{\r\n  \"resource\" : {\r\n    \"billAccAssignmentRules\" : [{\r\n        \"id\" : \"706EA00F3046489B95F9859270FE4B00\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n    }],\r\n    \"externalId\" : \"contract_CHA_Cache_Test_5\",\r\n\r\n    \"statuses\" : [{\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"status\" : \"ContractActive\"\r\n    }],\r\n    \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n    \"partyInteractionRoles\" : [{\r\n        \"interactionRole\" : \"LegalContractHolder\",\r\n        \"partyRoleId\" : \"BA764D2A5FA34AD9900C2FF39D0608BF\"\r\n    }],\r\n    \"paymentContext\" : {\"paymentContextId\" : \"Prepaid\"},\r\n    \"prePaidLifeCycleData\": {\"specificationId\": \"9C57EAD00CDA440BB18F135E14AB8ADF\"},\r\n    \"products\" : [{\r\n        \"tmpId\" : \"tmp_productId_1\",\r\n        \"productOffering\" : {\"productOfferingId\" : \"950c5070-4cbd-4db1-8473-59e5d37443aa\"},\r\n        \"name\" : \"PO Voice National\",\r\n        \"description\" : \"PO_Voice_National\",\r\n        \"productSerialNumber\" : \"1\",\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n      \r\n                 \"productPrices\": [\r\n                        {\r\n                        \"name\": \"Pricing Strategy data\",\r\n                        \"validFor\": {\"start\": \"2018-01-12T00:00:00.000+02:00\"},\r\n                        \"productOfferingPriceId\": \"bdbf20d055e9cf093938076c1be26aae\"\r\n                        }\r\n                ],        \r\n          \"productPolicyRefs\": [\r\n                        {\r\n                        \"tmpId\": \"tmp_productPolicyRef1\",\r\n                        \"poPolicyRefId\": \"db796836a69dd4f3192f74262db3e30b\",\r\n                        \"validFor\": {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n                        }\r\n               ],  \r\n      \"statuses\" : [{\r\n            \"status\" : \"ProductActive\",\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n         }],\r\n         \"services\" : [\r\n                {\r\n            \"tmpId\" : \"tmp_CFS_Service_Data_1\"\r\n              }\r\n         ]\r\n    }],\r\n    \"services\" : [\r\n           {\r\n         \"tmpId\" : \"tmp_CFS_Service_Data_1\",\r\n         \"serviceSpecification\" : {\"serviceSpecificationId\" : \"7a441614-d75e-49dc-a9c9-1ec842958ab3\"},\r\n         \"serviceType\" : \"CF\",\r\n         \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n         }],\r\n         \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n         \"rfServices\" : [\r\n                  {\r\n            \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\"\r\n              },\r\n            {\r\n            \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\"\r\n              }\r\n         ]},\r\n         {\r\n        \"tmpId\" : \"tmp_RFS_service_SMS_Bx_Id1\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"0be94440-5db4-4d6d-9046-3b43597927de\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       },\r\n      {\r\n        \"tmpId\" : \"tmp_RFS_SMS_Capv2_service_Id2\",\r\n        \"serviceType\" : \"RF\",\r\n        \"serviceSpecification\" : {\"serviceSpecificationId\" : \"63812810-b008-4eb3-bb27-32eaced007a1\"},\r\n        \"statuses\" : [{\r\n            \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n            \"status\" : \"ServiceActive\"\r\n        }],\r\n        \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"},\r\n        \"resources\" : [{\r\n            \"logicalResource\" : {\r\n              \"resourceSpec\" : {\"resourceSpecId\" : \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"},\r\n              \"resourceType\" : \"MSISDN-DCS\",\r\n              \"resourceNumber\" : \"1576907990\",\r\n              \"validFor\" : {\"start\" : \"2018-01-12T00:00:00.000+02:00\"}\r\n            }\r\n        }]\r\n       }\r\n    ]\r\n  }\r\n} \r\n\r\n"
+		},
+		{
+			"id": "9c689d74-e842-9864-fde7-a53e53930574",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://vmx-dxp-039.ete.ka.sw.ericsson.se:13080/cpm/business/v1/createCustomer/customer/",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534404372601,
+			"name": "POST_Customer",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"resource\": {\r\n\t\t\"party\": {\r\n\t\t\t\"partyId\": \"1E90C2E317D04E1BB3D6E2D219173CD8\"\r\n\t\t},\r\n\t\t\"externalId\": \"customer_Promotion106_RMCA_5733495626\",\r\n\t\t\"statuses\": [{\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t},\r\n\t\t\t\"status\": \"CustomerActive\"\r\n\t\t}],\r\n\t\t\"validFor\": {\r\n\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t},\r\n\t\t\"billAccAssignmentRules\": [{\r\n\t\t\t\"tmpAccountId\": \"tmp_atomicAccountId\",\r\n\t\t\t\"priceTypes\": [\"any\"],\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t}\r\n\t\t}],\r\n\t\t\"billingAccounts\": [{\r\n\t\t\t\"tmpId\": \"tmp_atomicAccountId\",\r\n\t\t\t\"statuses\": [{\r\n\t\t\t\t\"status\": \"BillingAccountActive\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t}\r\n\t\t\t}],\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t},\r\n\t\t\t\"billingAccountSpec\": {\r\n\t\t\t\t\"billingAccountSpecId\": \"0889105b-a6b3-4cc4-b855-055121db9b16\"\r\n\t\t\t},\r\n\t\t\t\"buckets\": [{\r\n\t\t\t\t\"bucketSpec\": {\r\n\t\t\t\t\t\"bucketSpecId\": \"324ce77e-1e7c-4d97-9d75-f2c8e3cc564e\"\r\n\t\t\t\t},\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"isBCAligned\": [{\r\n\t\t\t\t\t\"boolValue\": true,\r\n\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t}\r\n\t\t\t\t}]\r\n\t\t\t}]\r\n\t\t}]\r\n\t}\r\n}"
+		},
+		{
+			"id": "a9a605b6-0559-970f-eb05-e5b669e756f6",
+			"name": "Disconnect Contract from CPM",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"method": "POST",
+			"headers": "Content-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n    \"resource\": {\r\n                          \r\n        \"statuses\": [\r\n                                    \r\n\r\n                                    {\r\n                                                                                                                                                                \"status\": \"ContractInactive\",\r\n                                        \"validFor\": {\r\n                                            \"start\": \"2018-01-15T11:32:15.920+01:00\"             \r\n                                        }\r\n                                   }\r\n                                ] \r\n    }\r\n}\r\n",
+			"url": "https://vs-sot02-cpm1.ete.ka.sw.ericsson.se/cpm/business/v1/updateContract/customer/{{customerIdCPM}}/contract/6E119E95B42F4D008F5B595A0CCCAABF",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321"
+		},
+		{
+			"id": "e1223996-3bfc-f893-784a-26960281f781",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://vmx-dxp-039.ete.ka.sw.ericsson.se/cpm/business/v1/createContract/customer/D429AAFAC22C4191ADF62520F02D46A9/contract/",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534404311784,
+			"name": "Update_Contract_1CFS",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "3d1a367e-cf95-3d28-ee4f-711c1d25050e",
+			"rawModeData": "{\r\n\t\"resource\": {\r\n\t\t\"billAccAssignmentRules\": [{\r\n\t\t\t\"id\": \"355B20FE890048AEA05A94B5B3A45C28\",\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t}\r\n\t\t}],\r\n\t\t\"externalId\": \"contract_CHA_Cache_Test_108\",\r\n\r\n\t\t\"statuses\": [{\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t},\r\n\t\t\t\"status\": \"ContractActive\"\r\n\t\t}],\r\n\t\t\"validFor\": {\r\n\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t},\r\n\t\t\"paymentContext\": {\r\n\t\t\t\"paymentContextId\": \"Prepaid\"\r\n\t\t},\r\n\t\t\"prePaidLifeCycleData\": {\r\n\t\t\t\"specificationId\": \"A54663D04A88434F8E6C6636B6798E2F\"\r\n\t\t},\r\n\t\t\"products\": [{\r\n\t\t\t\"tmpId\": \"tmp_productId_1\",\r\n\t\t\t\"productOffering\": {\r\n\t\t\t\t\"productOfferingId\": \"37889536-8a94-4b35-94cd-84c89c6099c8\"\r\n\t\t\t},\r\n\t\t\t\"name\": \"PO_ZNIS\",\r\n\t\t\t\"description\": \"PO_ZNIS\",\r\n\t\t\t\"productSerialNumber\": \"1\",\r\n\t\t\t\"validFor\": {\r\n\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t},\r\n\r\n\t\t\t\"productPrices\": [{\r\n\t\t\t\t\"name\": \"Pricing Strategy data\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"productOfferingPriceId\": \"a5aa5928a26c2a1ac43a921e47b0e7d9\"\r\n\t\t\t}],\r\n\t\t\t\"productPolicyRefs\": [{\r\n\t\t\t\t\"tmpId\": \"tmp_productPolicyRef1\",\r\n\t\t\t\t\"poPolicyRefId\": \"e421b89e5efc74825b3f785e38aadfa5\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t}\r\n\t\t\t}],\r\n\t\t\t\"statuses\": [{\r\n\t\t\t\t\"status\": \"ProductActive\",\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t}\r\n\t\t\t}],\r\n\t\t\t\"services\": [{\r\n\t\t\t\t\"tmpId\": \"tmp_CFS_Service_Data_1\"\r\n\t\t\t}]\r\n\t\t}],\r\n\t\t\"services\": [{\r\n\t\t\t\t\"tmpId\": \"tmp_CFS_Service_Data_1\",\r\n\t\t\t\t\"serviceSpecification\": {\r\n\t\t\t\t\t\"serviceSpecificationId\": \"feddd78d-a889-433a-a32f-bf34ea550b76\"\r\n\t\t\t\t},\r\n\t\t\t\t\"serviceType\": \"CF\",\r\n\t\t\t\t\"statuses\": [{\r\n\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"status\": \"ServiceActive\"\r\n\t\t\t\t}],\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"rfServices\": [{\r\n\t\t\t\t\t\t\"tmpId\": \"tmp_RFS_service_SMS_Bx_Id1\"\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t]\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"tmpId\": \"tmp_RFS_service_SMS_Bx_Id1\",\r\n\t\t\t\t\"serviceType\": \"RF\",\r\n\t\t\t\t\"serviceSpecification\": {\r\n\t\t\t\t\t\"serviceSpecificationId\": \"63812810-b008-4eb3-bb27-32eaced007a1\"\r\n\t\t\t\t},\r\n\t\t\t\t\"statuses\": [{\r\n\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"status\": \"ServiceActive\"\r\n\t\t\t\t}],\r\n\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t},\r\n\t\t\t\t\"resources\": [{\r\n\t\t\t\t\t\"logicalResource\": {\r\n\t\t\t\t\t\t\"resourceSpec\": {\r\n\t\t\t\t\t\t\t\"resourceSpecId\": \"8aabb378-affe-4bda-8ba6-55a53ccf4549\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"resourceType\": \"MSISDN-DCS\",\r\n\t\t\t\t\t\t\"resourceNumber\": \"6472940345\",\r\n\t\t\t\t\t\t\"validFor\": {\r\n\t\t\t\t\t\t\t\"start\": \"2018-01-12T00:00:00.000+02:00\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}]\r\n\t\t\t}\r\n\r\n\t\t]\r\n\t}\r\n}"
+		},
+		{
+			"id": "e9b8e432-c0d2-09e0-10c8-d5bf864b13df",
+			"name": "Update Contract from CPM",
+			"description": "",
+			"collectionId": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"method": "POST",
+			"headers": "Content-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n    \"resource\": {}\r\n}\r\n",
+			"url": "https://vs-sot09-cpm1.ete.ka.sw.ericsson.se/cpm/business/v1/updateContract/customer/{{customerIdCPM}}/contract/A5B5682AD7634950A9C4B792722D5638",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "03845f37-349f-de6c-892d-7b0bd1ee0d82",
+			"folder": "5d18dba2-4a3c-f71c-a162-70e924cab321"
+		}
+	]
+}
